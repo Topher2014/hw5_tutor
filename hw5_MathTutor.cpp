@@ -1,3 +1,12 @@
+/*Ludlow, Topher
+W1287651
+CISP 360, 9/4/18, BUS240 18:00
+Fall 2018
+Assignment #5 Math Tutor
+Program file name: hw5_MathTutor.cpp
+Program description: Program allows user to practice addition, subtraction, 
+multiplication, and division*/
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -52,7 +61,15 @@ int main()
         cout << Num1 << " / " << Num2 << " = ";
         }
     else if (choice == 5)
+        {
         exit(0);
+        }
+    else if (choice != 1-5)
+        {
+        cout << "Invalid number \n";
+        exit(0);
+        }
+
 
     cin >> answer;
 
